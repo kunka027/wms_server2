@@ -66,7 +66,3 @@ exports.signin = async (req, res) => {
 exports.getProfile = (authentication, (req, res) => {
     res.send({ status: '', message: `Hello, ${req.user.username}` });
 });
-
-exports.getUser = async (req, res) => {
-
-}
